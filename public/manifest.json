@@ -1,0 +1,17 @@
+{
+  "name": "Master Guide Portfolio",
+  "short_name": "Master Guide",
+  "description": "Professional Master Guide portfolio website",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#2d508d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
