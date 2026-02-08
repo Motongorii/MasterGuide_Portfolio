@@ -31,19 +31,19 @@ export default function Contact() {
     {
       icon: '📧',
       title: 'Email',
-      value: 'hello@masterguide.com',
-      link: 'mailto:hello@masterguide.com',
+      value: 'antomotongori@gmail.com',
+      link: 'mailto:antomotongori@gmail.com',
     },
     {
       icon: '📱',
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+254119397068',
+      link: 'tel:+254119397068',
     },
     {
       icon: '📍',
       title: 'Location',
-      value: 'Your City, Your Country',
+      value: 'Nairobi, Kenya',
       link: '#',
     },
     {
@@ -53,32 +53,6 @@ export default function Contact() {
       link: '#',
     },
   ];
-    const contactMethods = [
-      {
-        icon: '📧',
-        title: 'Email',
-        value: 'antomotongori@gmail.com',
-        link: 'mailto:antomotongori@gmail.com',
-      },
-      {
-        icon: '📱',
-        title: 'Phone',
-        value: '+254119397068',
-        link: 'tel:+254119397068',
-      },
-      {
-        icon: '📍',
-        title: 'Location',
-        value: 'Nairobi, Kenya',
-        link: '#',
-      },
-      {
-        icon: '⏰',
-        title: 'Response Time',
-        value: 'Within 24 hours',
-        link: '#',
-      },
-    ];
 
   return (
     <div className="bg-gradient-to-b from-secondary-50 to-white">

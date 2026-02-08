@@ -136,9 +136,9 @@ export default function Blog() {
 
                   <div className="flex justify-between items-center pt-4 border-t border-gray-100">
                     <span className="text-xs text-gray-500">{post.date}</span>
-                    <button className="text-secondary-600 hover:text-secondary-800 font-semibold text-sm inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                    <a href={`/blog/${post.id}`} className="text-secondary-600 hover:text-secondary-800 font-semibold text-sm inline-flex items-center gap-2 group-hover:gap-3 transition-all">
                       Read More →
-                    </button>
+                    </a>
                   </div>
                 </div>
               </article>
