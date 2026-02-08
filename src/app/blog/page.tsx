@@ -8,57 +8,12 @@ export default function Blog() {
   const blogPosts = [
     {
       id: 1,
-      title: 'The Power of Authentic Mentorship',
+      title: 'The Role of a Master Guide in the SDA Church',
       category: 'Leadership',
-      date: 'January 15, 2024',
-      excerpt: 'Explore how genuine connections and authentic guidance can transform lives and create lasting impact in mentorship relationships.',
-      image: 'bg-gradient-to-br from-secondary-400 to-secondary-600',
+      date: 'February 7, 2026',
+      excerpt: 'Discover the responsibilities, mission, and impact of a Master Guide in the Seventh-day Adventist Church.',
+      image: '/masterguide-thumbnail.jpg',
       readTime: '5 min read',
-    },
-    {
-      id: 2,
-      title: 'Building Inclusive Communities',
-      category: 'Community',
-      date: 'January 10, 2024',
-      excerpt: 'Discover strategies and best practices for creating welcoming spaces where every individual feels valued and supported.',
-      image: 'bg-gradient-to-br from-sage-400 to-sage-600',
-      readTime: '6 min read',
-    },
-    {
-      id: 3,
-      title: 'Personal Growth in Professional Life',
-      category: 'Development',
-      date: 'December 28, 2023',
-      excerpt: 'Learn how to balance personal development with professional responsibilities and achieve meaningful growth.',
-      image: 'bg-gradient-to-br from-accent-400 to-accent-600',
-      readTime: '4 min read',
-    },
-    {
-      id: 4,
-      title: 'Overcoming Challenges with Resilience',
-      category: 'Mindset',
-      date: 'December 20, 2023',
-      excerpt: 'Understand the principles of resilience and how to bounce back stronger from life\'s obstacles.',
-      image: 'bg-gradient-to-br from-primary-400 to-primary-600',
-      readTime: '7 min read',
-    },
-    {
-      id: 5,
-      title: 'The Art of Active Listening',
-      category: 'Skills',
-      date: 'December 12, 2023',
-      excerpt: 'Master the skill of truly hearing others and how it strengthens relationships and communication.',
-      image: 'bg-gradient-to-br from-secondary-500 to-sage-500',
-      readTime: '5 min read',
-    },
-    {
-      id: 6,
-      title: 'Creating Safe Spaces for Growth',
-      category: 'Community',
-      date: 'December 5, 2023',
-      excerpt: 'Explore the elements that make a space truly safe and conducive to personal and collective growth.',
-      image: 'bg-gradient-to-br from-sage-500 to-primary-500',
-      readTime: '6 min read',
     },
   ];
 
@@ -109,12 +64,8 @@ export default function Blog() {
                 className="group bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden hover:translate-y-[-8px]"
               >
                 {/* Featured Image */}
-                <div className={`h-48 ${post.image} flex items-center justify-center overflow-hidden group-hover:scale-110 transition-transform duration-300`}>
-                  <div className="text-white text-center">
-                    <svg className="w-16 h-16 mx-auto mb-2 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17.001c0 5.999 4.5 10.744 10 10.744s10-4.745 10-10.744C22 11 17.5 6.253 12 6.253z" />
-                    </svg>
-                  </div>
+                <div className="h-48 w-full overflow-hidden bg-gray-100">
+                  <img src={post.image} alt={post.title} className="object-cover h-full w-full" />
                 </div>
 
                 {/* Content */}

@@ -26,12 +26,10 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-secondary-600 to-sage-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">MG</span>
-            </div>
+          <Link href="/" className="flex items-center gap-3 group">
+            <img src="/profile.jpeg" alt="Anthony Motongori" className="w-10 h-10 rounded-full border-2 border-secondary-600 shadow object-contain bg-white p-1" />
             <span className="text-xl font-bold text-secondary-800 group-hover:text-secondary-600 transition-colors">
-              Master Guide
+              Anthony Motongori
             </span>
           </Link>
 

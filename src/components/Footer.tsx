@@ -10,8 +10,12 @@ export default function Footer() {
           {/* About */}
           <div>
             <h3 className="text-lg font-bold mb-4 text-accent-300">About</h3>
+            <div className="flex items-center gap-4 mb-3">
+              <img src="/profile.jpeg" alt="Anthony Motongori" className="w-12 h-12 rounded-full border-2 border-accent-300 object-cover" />
+              <span className="text-gray-300 font-semibold">Anthony Motongori</span>
+            </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-                Anthony Motongori, Master Guide, Mentor, and Community Leader based in Nairobi, Kenya.<br />
+                Master Guide, Mentor, and Community Leader based in Nairobi, Kenya.<br />
                 Email: antomotongori@gmail.com<br />
                 Phone: +254119397068<br />
                 Dedicated to excellence, growth, and community support.

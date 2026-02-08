@@ -19,11 +19,8 @@ export default function Profile() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
             {/* Profile Image */}
             <div className="flex justify-center">
-              <div className="w-80 h-96 bg-gradient-to-br from-secondary-400 to-sage-400 rounded-2xl shadow-2xl flex items-center justify-center text-white text-center p-8 sticky top-24">
-                <div>
-                  <p className="text-xl font-semibold mb-4">Anthony Motongori</p>
-                  <p className="opacity-90">Master Guide | Mentor | Community Leader</p>
-                </div>
+              <div className="w-80 h-96 rounded-2xl shadow-2xl flex items-center justify-center bg-gradient-to-br from-secondary-400 to-sage-400 p-0 sticky top-24 overflow-hidden">
+                <img src="/profile.jpeg" alt="Anthony Motongori" className="w-full h-full object-contain p-4 bg-white" />
               </div>
             </div>
 

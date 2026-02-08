@@ -30,11 +30,13 @@ export default function Home() {
 
             {/* Right Image Placeholder */}
             <div className="flex items-center justify-center">
-              <div className="w-80 h-80 bg-gradient-to-br from-secondary-400 to-sage-400 rounded-2xl shadow-2xl flex items-center justify-center text-white text-center p-8">
-                <div>
-                  <p className="text-lg font-semibold mb-4">Your Professional Photo</p>
-                  <p className="text-sm opacity-90">Replace this with your profile image</p>
-                </div>
+              <div className="w-96 h-[500px] rounded-2xl shadow-2xl flex items-center justify-center bg-gray-300 overflow-hidden animate-bounceIn mt-4 mb-4">
+                <img 
+                  src="/profile.jpeg" 
+                  alt="Anthony Motongori" 
+                  className="w-full h-full object-contain" 
+                  style={{ animation: 'bounceIn 1s ease' }}
+                />
               </div>
             </div>
           </div>
